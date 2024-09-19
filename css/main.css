@@ -1,0 +1,46 @@
+*{
+    background-color: aquamarine;
+}
+
+#barra_menu{
+    background-color: blueviolet;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 185%;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration-style: double;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#bt_barra{
+    background-color: red;
+    text-align: center;
+    border-radius: 25px;
+    
+}
+
+#principal{
+    position: relative;
+}
+
+#barra_lateral{
+    position: sticky;
+    right: 0;
+    display: inline-block;
+    background-color: red;
+    width: 10%;
+    height: 10%;
+    border: 10px,solid,black;
+    border-radius: 25px;
+    left: 85rem;
+    bottom: 80%;
+    z-index: 100;
+}
